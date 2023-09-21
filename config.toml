@@ -1,4 +1,4 @@
-baseURL = 'http://gohugo.io/'
+baseURL = 'http://lxdake.me'
 languageCode = 'en-us'
 theme = "hugo-theme-nightfall"
 
@@ -6,7 +6,7 @@ theme = "hugo-theme-nightfall"
   [[menu.header]]
     name = "projects"
     weight = 0
-    url = "post"
+    url = "projects"
   [[menu.header]]
     name = "about"
     weight = 1
