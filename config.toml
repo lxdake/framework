@@ -1,4 +1,41 @@
-[module]
-  [module.hugoVersion]
-    extended = true
-    min = "0.80.0"
+baseURL = 'http://gohugo.io/'
+languageCode = 'en-us'
+theme = "hugo-theme-nightfall"
+
+[menu]
+  [[menu.header]]
+    name = "projects"
+    weight = 0
+    url = "post"
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "about"
+
+[params]
+author = "Alex Dake"
+user = "lxdake"
+hostname = "gmail.com"
+
+readingTime = true  # Show reading time on post page
+published = true  # Show published data on post page
+
+[[params.social]]
+key = 0
+name = "[linkedin]"
+url = "https://www.linkedin.com/in/alexander-dake"
+
+[[params.social]]
+key = 1
+name = "[resume]"
+url = "https://www.example.com"
+
+[[params.social]]
+key = 2
+name = "[github]"
+url = "https://github.com/lxdake"
+
+[[params.social]]
+key = 3
+name = "[email]"
+url = "mailto:lxdake@gmail.com"
